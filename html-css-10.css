@@ -66,8 +66,44 @@ main {
 .title {
   margin: 15px 0 5px;
 }
-
 footer {
   height: 50px;
   background-color: #aaa;
+}
+@media screen and (max-width:768px) {
+  header {
+  width: 100%;
+  padding: 50px;
+  margin: 0;
+}
+
+main {
+  width: 90%;
+  padding: 50px;
+}
+
+.step-box {
+  width: 100%;
+  margin: 20px;
+ margin-left: 5%;
+}
+
+
+
+.step-img1 {
+  padding: 150px;
+  }
+
+.step-img2 {
+  padding: 150px;
+}
+
+.step-img3 {
+  padding: 150px;
+
+}
+
+footer {
+  height: 50px;
+  padding: 50px;
 }
