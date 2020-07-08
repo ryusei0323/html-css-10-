@@ -71,39 +71,37 @@ footer {
   background-color: #aaa;
 }
 @media screen and (max-width:768px) {
-  header {
+ 
+header {
   width: 100%;
-  padding: 50px;
-  margin: 0;
+  height: 50px;
 }
 
 main {
-  width: 90%;
-  padding: 50px;
+  width: 100%;
+  margin:50px 0px;
 }
 
 .step-box {
-  width: 100%;
-  margin: 20px;
- margin-left: 5%;
+  width: 90%;
+  margin:20px 0px;
+  margin-left: 5%;
+  float: none;
+
 }
 
-
-
 .step-img1 {
-  padding: 150px;
-  }
+  padding: 150px auto;
+}
 
 .step-img2 {
-  padding: 150px;
+  padding: 150px auto;
 }
 
 .step-img3 {
-  padding: 150px;
-
+  padding: 150px auto;
 }
 
 footer {
   height: 50px;
-  padding: 50px;
 }
